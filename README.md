@@ -82,6 +82,36 @@ The project includes both the search engine logic and a graphical user interface
 
 ---
 
+## Project Architecture
+
+The search engine is organized into several logical components that work together to process documents, build the search index, process user queries, rank results, and present them through the graphical interface.
+
+### 1. Text Processing
+
+The text processing layer prepares documents and search queries for indexing and retrieval.
+
+Main functions:
+
+- `normalize_word()`
+- `tokenize()`
+- `normalized_tokens()`
+- `clean_query()`
+
+The processing pipeline includes:
+
+```text
+Raw text
+    ↓
+Tokenization
+    ↓
+Stop-word removal
+    ↓
+Porter stemming
+    ↓
+Normalized terms
+
+---
+
 ## Screenshots
 
 ### Main Interface
