@@ -1,5 +1,7 @@
 # International Relations Search Engine
 
+![Main Interface](screenshots/main-interface.png)
+
 A Python-based desktop search engine for searching and analyzing a collection of international relations documents.
 
 The project demonstrates how a basic search engine works internally, including document indexing, inverted indexes, document frequency, TF-IDF ranking, Boolean search, stemming, snippets, result highlighting, search history, document filtering, document management, search statistics, and a graphical user interface built with Tkinter.
