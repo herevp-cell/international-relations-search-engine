@@ -82,6 +82,25 @@ The project includes both the search engine logic and a graphical user interface
 
 ---
 
+## Screenshots
+
+### Main Interface
+
+![Main Interface](screenshots/main-interface.png)
+
+### Search Results
+
+![Search Results](screenshots/search-results.png)
+
+### Search Engine Statistics
+
+![Search Engine Statistics](screenshots/statistics.png)
+
+### Document Filtering
+
+![Document Filtering](screenshots/document-filter.png)
+---
+
 ## How It Works
 
 The search engine processes documents through several stages.
